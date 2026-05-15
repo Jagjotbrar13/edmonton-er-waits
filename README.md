@@ -34,14 +34,14 @@ Real-time AHS wait times across all 12 hospitals, with severity color coding, tr
 <p align="center">
   <img src="./screenshots/dashboard.png" width="900"/>
 </p>
-### Hospital Detail — History + Forecast + Best Time Heatmap
-Per-hospital historical trend chart with dashed forecast preview line, 2h/4h predictions, and a day-of-week × time-of-day heatmap built from collected averages.
+> Hospital Detail — History + Forecast + Best Time Heatmap
+> Per-hospital historical trend chart with dashed forecast preview line, 2h/4h predictions, and a day-of-week × time-of-day heatmap built from collected averages.
  
 <p align="center">
   <img src="./screenshots/hospital_detail.png" width="900"/>
 </p>
-### Hospital Comparison
-Live ranked leaderboard of all 12 EDs sorted by current posted wait.
+> Hospital Comparison
+> Live ranked leaderboard of all 12 EDs sorted by current posted wait.
  
 <p align="center">
   <img src="./screenshots/compare.png" width="900"/>
@@ -97,7 +97,6 @@ The dataset does not exist anywhere else. AHS overwrites its snapshot on every p
 | 2-hour forecast | ~15–25 minutes |
 | 4-hour forecast | ~25–40 minutes |
  
-Being honest: the model is not trained yet. The right engineering decision was to let the scraper run and accumulate real data rather than rush an inaccurate model. The feature pipeline, training scaffolding, and drift detection are all in place — training runs as soon as the dataset is deep enough.
  
 ---
  
