@@ -1,6 +1,8 @@
 import { HospitalCompare } from "@/components/HospitalCompare";
 import { getComparison } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+
 export default async function ComparePage() {
   const hospitals = await getComparison();
   return (

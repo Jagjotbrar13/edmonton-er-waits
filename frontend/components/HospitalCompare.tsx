@@ -1,4 +1,4 @@
-import { Hospital } from "@/lib/api";
+import type { Hospital } from "@/lib/types";
 import { formatWait } from "@/lib/map";
 
 export function HospitalCompare({ hospitals }: { hospitals: Hospital[] }) {
