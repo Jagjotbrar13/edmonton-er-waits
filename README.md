@@ -28,23 +28,22 @@ This isn't a toy dataset project. The scraper runs unattended in production, the
  
 ## Dashboard Screenshots
  
-### Live Wait Dashboard
-Real-time AHS wait times across all 12 hospitals, with severity color coding, trend arrows, sparklines, and the "Best ER Right Now" recommendation.
- 
 <p align="center">
   <img src="./screenshots/dashboard.png" width="900"/>
+  <br/>
+  <sub><b>Live Wait Dashboard</b> — 12 hospitals ranked by severity, with trend sparklines and the best ER recommendation updated every 30 minutes.</sub>
 </p>
-> Hospital Detail — History + Forecast + Best Time Heatmap
-> Per-hospital historical trend chart with dashed forecast preview line, 2h/4h predictions, and a day-of-week × time-of-day heatmap built from collected averages.
- 
+<br/>
 <p align="center">
   <img src="./screenshots/hospital_detail.png" width="900"/>
+  <br/>
+  <sub><b>Hospital Detail</b> — Historical wait trend with forecast preview, 2h/4h prediction confidence, and a day × time heatmap of best visit windows.</sub>
 </p>
-> Hospital Comparison
-> Live ranked leaderboard of all 12 EDs sorted by current posted wait.
- 
+<br/>
 <p align="center">
   <img src="./screenshots/compare.png" width="900"/>
+  <br/>
+  <sub><b>Hospital Comparison</b> — All 12 Edmonton EDs ranked live by current posted wait time.</sub>
 </p>
 ---
  
